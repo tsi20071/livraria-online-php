@@ -1,4 +1,5 @@
 <?php
+//Criação da sessão
 include_once('conexao.php');
 session_name('livrariaonline'); // NOME DA SESSÃO DO SITE
 session_start(); // CHAMA A SESSÃO SE CRIADA PELO LOGIN.PHP
