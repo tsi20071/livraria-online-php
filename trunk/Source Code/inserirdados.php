@@ -19,7 +19,7 @@ while ($dados = mysqli_fetch_array($resultado)) {
     if ($contador % 3 == 2)
         echo '</tr>';
 
-    $contador++;
+    $contador++; 
 }
 
 echo '</table>';
