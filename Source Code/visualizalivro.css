@@ -1,0 +1,48 @@
+table.visualizalivro tr td#texto span {
+    display: block;
+}
+
+table.visualizalivro tr td#texto span#autor {
+    font-size: small;
+    color: #999;
+}
+
+table.visualizalivro tr td#texto span#editora {
+    font-size: smaller;
+    color: #0C0;
+}
+
+table.visualizalivro tr td#texto span#descricao {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    color: #666;
+    text-align: justify;
+}
+
+table.visualizalivro tr td#texto span#preco {
+    font-size: xx-large;
+    font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: right;
+    color: #06C;
+}
+
+table.visualizalivro tr td#texto span#comprar {
+    text-align: right;
+    display: block;
+}
+
+table.visualizalivro tr td#texto span#comprar a {
+    margin-top: 10px;
+    width: 90px;
+    height: 28px;
+    background: url('imagens/comprar.png') no-repeat;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+table.visualizalivro tr td#texto span#comprar a:hover {
+    background: url('imagens/comprar-hover.png') no-repeat;
+}

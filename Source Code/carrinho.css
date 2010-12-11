@@ -1,0 +1,14 @@
+table.carrinho tr td {
+    font-size: small;
+    border-bottom: 1px solid #ccc;
+}
+
+table.carrinho tr td a {
+    color: #603;
+    text-decoration: none;
+}
+
+table.carrinho tr td a:hover {
+    color: #f00;
+    text-decoration: underline;
+}

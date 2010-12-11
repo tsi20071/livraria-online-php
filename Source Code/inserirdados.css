@@ -1,0 +1,46 @@
+div.conteudo div.centro table tr td a {
+    text-decoration: none;
+}
+
+div.conteudo div.centro table tr td {
+    background: transparent;
+}
+
+div.conteudo div.centro table tr td span {
+    display: block;
+    margin-top: 10px;
+}
+
+div.conteudo div.centro table tr td a.detalhes {
+    margin-top: 10px;
+    width: 64px;
+    height: 20px;
+    background: url('imagens/detalhes.png') no-repeat;
+    text-decoration: none;
+    display: block;
+}
+
+div.conteudo div.centro table tr td a.detalhes:hover {
+    background: url('imagens/detalhes-hover.png') no-repeat;
+}
+
+div.conteudo div.centro table tr td span.titulo {
+    font-size: medium;
+    color: #333;
+}
+
+div.conteudo div.centro table tr td span.autor {
+    font-size: smaller;
+    color: #999;
+}
+
+div.conteudo div.centro table tr td span.editora {
+    font-size: smaller;
+    color: #69F;
+}
+
+div.conteudo div.centro table tr td span.preco {
+    font-size: medium;
+    color: #039;
+    margin-bottom: 15px;
+}
