@@ -67,4 +67,4 @@ include_once('checatitulo.php'); // ARQUIVO QUE CHECA O TÍTULO DA PÁGINA
         </div>
     </body>
 </html>
-<?php mysqli_close($conexao); // FECHA A CONEXÃO COM O BANCO DE DADOS ?>
+<?php mysqli_close($conexao); // FECHA A CONEXÃO COM O BANCO DE DADOS ?> 
