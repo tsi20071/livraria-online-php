@@ -20,5 +20,5 @@ elseif (($_GET['titulo'] == 'cadastroconcluido') && !$logado)
 elseif (($_GET['titulo'] == 'carrinho') && (isset($_GET['acao'])) && $logado)
     $titulo = 'SEU CARRINHO DE COMPRAS';
 else
-    $titulo = 'P&Aacute;GINA INICIAL';
+    $titulo = 'P&Aacute;GINA INICIAL'; 
 ?>
