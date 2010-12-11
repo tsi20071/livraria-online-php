@@ -1,4 +1,5 @@
 <?php
+//Abrir conexão
 include_once('conexao.php');
 
 $query = 'SELECT * FROM clientes WHERE email = \'' . $_POST['email'] . '\' AND senha = \'' . $_POST['senha'] . '\'';
