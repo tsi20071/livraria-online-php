@@ -12,5 +12,5 @@ elseif (($_GET['titulo'] == 'cadastroconcluido') && !$logado)
 elseif (($_GET['titulo'] == 'carrinho') && (isset($_GET['acao'])) && $logado)
     include_once('carrinho.php');
 else
-    include_once('destaques.php');
+    include_once('destaques.php'); 
 ?>
