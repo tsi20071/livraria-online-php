@@ -15,5 +15,5 @@ $resultado = mysqli_query($conexao, $query);
     if ($resultado->num_rows > 0)
         include_once('inserirdados.php');
     else
-        echo '<span>N&atilde;o foram encontrados livros como resultado da sua busca.</span>';
+        echo '<span>N&atilde;o foram encontrados livros como resultado da sua busca.</span>'; 
 ?>
