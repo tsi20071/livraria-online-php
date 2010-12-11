@@ -19,7 +19,7 @@ include_once('checatitulo.php'); // ARQUIVO QUE CHECA O TÍTULO DA PÁGINA
         <div class="cabecalho">
             <div class="cabecalho-esquerdo"><img src="imagens/site-logo.png" width="160" height="80" />&nbsp;<span>Livraria Online</span></div>
             <div class="cabecalho-direito">
-                <div id="login" style="display: <?php echo $displaylogin; ?>;">
+                <div id="login" style="display: <?php echo $displaylogin; ?>;"> 
                     <form method="post" action="login.php">
                         <table cellpadding="0" cellspacing="0" width="290px">
                             <tr>
