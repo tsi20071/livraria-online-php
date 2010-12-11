@@ -60,7 +60,7 @@
         <td>
             <select name="estado">
                 <?php
-				//código que gera a seleção dos estados
+				//código que gera a seleção dos estados.
                 $query = 'SELECT * FROM estados';
                 $resultado = mysqli_query($conexao, $query);
 
