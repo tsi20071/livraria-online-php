@@ -7,5 +7,5 @@ $resultado = mysqli_query($conexao, $query);
 if($resultado)
     echo 'Cadastro conclu&iacute;do com sucesso!<br /><a href=".">Clique aqui</a> para voltar &agrave; p&aacute;gina inicial ou fa&ccedil;a o login agora na parte superior do site.';
 else
-    echo 'Erro nos dados. Tente novamente.'
+    echo 'Erro nos dados. Tente novamente';
 ?>
