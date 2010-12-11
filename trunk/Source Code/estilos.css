@@ -1,0 +1,207 @@
+body, span, div, label, input, td, th{
+    font-family: "PuritanNormal", Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #333;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background: #E8EDF0 url(imagens/site-fundo.png) repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+div.cabecalho {
+    width: 970px;
+    margin: 10px auto;
+}
+
+div.cabecalho-esquerdo {
+    float: left;
+    width: 680px;
+    height: 80px;
+    margin: 0;
+}
+
+div.cabecalho-esquerdo span {
+    font-family: "PuritanBoldItalic", "PuritanItalic", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    letter-spacing: -0.1em;
+}
+
+div.cabecalho-direito {
+    width: 290px;
+    height: 80px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 680px;
+}
+
+div.cabecalho-direito form {
+    margin: 0;
+    padding: 0;
+}
+
+div.cabecalho-direito label, div.cabecalho-direito input, div.conteudo div.menu-aux input.botao {
+    font-size: small;
+    color: #333;
+    height: 18px;
+    margin: 0;
+}
+
+div.cabecalho-direito div#usuario {
+    text-align: right;
+}
+
+div.cabecalho-direito div#usuario span {
+    display: block;
+}
+
+div.cabecalho-direito div#usuario span a {
+    color: #09f;
+    text-decoration: none;
+}
+
+div.cabecalho-direito div#usuario span a:hover {
+    color: #039;
+    text-decoration: underline;
+}
+
+div.conteudo div.menu-aux span#busca {
+    font-size: small;
+    color: #999;
+    display: block;
+}
+
+div.cabecalho-direito input.campo {
+    width: 100%;
+    border: 1px solid #DBE1E6;
+}
+
+div.cabecalho-direito input.campo:hover {
+    border: 1px solid #333;
+}
+
+div.cabecalho-direito input.botao, div.conteudo div.menu-aux input.botao {
+    height: 22px;
+}
+
+div.conteudo {
+    width: 970px;
+    min-height: 1000px;
+    margin: 0 auto;
+    border-top: 5px solid #039;
+    border-right: 1px solid #DBE1E6;
+    border-bottom: 1px solid #DBE1E6;
+    border-left: 1px solid #DBE1E6;
+    background: #FFFFFF;
+}
+
+div.conteudo div.menu {
+    float: left;
+    width: 160px;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+div.conteudo div.menu-aux {
+    float: right;
+    width: 160px;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+div.conteudo div.menu-aux span.busca {
+    background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+    line-height: 22px;
+    color: #eee;
+    font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    display: block;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+div.conteudo div.menu ul.categorias {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.conteudo div.menu ul.categorias li {
+    display: block;
+    line-height: 22px;
+}
+
+div.conteudo div.menu ul.categorias li.cabecalho-menu {
+    background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+    border-top: none;
+    border-right: 1px solid #DBE1E6;
+    border-bottom: 1px solid #DBE1E6;
+    border-left: none;
+    text-align: center;
+    color: #eee;
+    font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+div.conteudo div.menu ul.categorias li.cabecalho-menu:hover {
+    background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+}
+
+div.conteudo div.menu ul.categorias li.item-menu {
+    background: url(imagens/menu-fundo.png) repeat-x;
+    border-top: none;
+    border-right: 1px solid #DBE1E6;
+    border-bottom: 1px solid #DBE1E6;
+    border-left: none;
+}
+
+div.conteudo div.menu ul.categorias li.item-menu:hover {
+    background: #d0efff;
+}
+
+div.conteudo div.menu ul.categorias li a {
+    padding-left: 8px;
+    color: #666;
+    text-decoration: none;
+    display: block;
+}
+
+div.conteudo div.menu ul.categorias li a:hover {
+    color: #039;
+}
+
+div.conteudo div.centro {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    width: 640px;
+    overflow: hidden;
+}
+
+div.conteudo div.centro div.pagina {
+    background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+    height: 22px;
+    line-height: 22px;
+    color: #eee;
+    font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+div.clearer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}

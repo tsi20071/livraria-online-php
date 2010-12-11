@@ -1,0 +1,7 @@
+table.cadastro td.label {
+    text-align: right;
+}
+table.cadastro td.ajuda {
+    color: #999;
+    font-size: small;
+}
