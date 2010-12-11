@@ -1,178 +1,174 @@
-body {
-	background: #fff;
+body, span, div, label, input, td, th{
 	font-family: "PuritanNormal", Arial, Helvetica, sans-serif;
-	font-size: normal;
+	font-size: medium;
 	color: #333;
+}
+
+body {
+	background: #E8EDF0 url(imagens/site-fundo.png) repeat-x;
 	margin: 0;
 	padding: 0;
 }
+
 div.cabecalho {
-	margin: 0 auto;
-	width: 920px;
+	width: 970px;
+	margin: 10px auto;
 }
-div.cabecalho div.menuRapido {
-	padding-top: 0;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	background: url(imagens/cabecalho-barra.png) no-repeat;
-	color: #fff;
-	text-align: right;
-	line-height: 30px;
-	height: 30px;
-	font-family: "PuritanBold", Arial, Helvetica, sans-serif;
-}
-div.cabecalho div.menuRapido a {
-	color: #fff;
-	text-decoration: none;
-}
-div.cabecalho div.menuRapido a:hover {
-	color: #333;
-	text-decoration: underline;
-}
-div.cabecalho div.logo {
-	margin: 0px;
-	height: 140px;
-}
-div.cabecalho div.logo img {
-	border: none;
-}
-div.amarrador-cima {
-	padding-top: 0;
-	padding-right: 10px;
-	padding-bottom: 0;
-	padding-left: 10px;
-	margin: 0 auto;
-	width: 900px;
-	height: 12px;
-	background: url(imagens/amarrador-detalheCima-fundo.png) no-repeat;
-}
-div.amarrador {
-	padding-top: 2px;
-	padding-right: 10px;
-	padding-bottom: 0;
-	padding-left: 10px;
-	margin: 0 auto;
-	width: 900px;
-	background: url(imagens/amarrador-fundo.png) repeat-y;
-}
-div.amarrador div.menuEsquerdo {
-	width: 160px;
+
+div.cabecalho-esquerdo {
 	float: left;
+	width: 680px;
+	height: 80px;
+	margin: 0;
 }
-div.amarrador div.menuEsquerdo ul.categorias {
+
+div.cabecalho-esquerdo span {
+	font-family: "PuritanBoldItalic", "PuritanItalic", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 80px;
+	letter-spacing: -0.1em;
+}
+
+div.cabecalho-direito {
+	width: 290px;
+	height: 80px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 680px;
+}
+
+div.cabecalho-direito form {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.cabecalho-direito label, div.cabecalho-direito input, div.conteudo div.menu-aux input.botao {
+	font-size: small;
+	color: #333;
+	height: 18px;
+	margin: 0;
+}
+
+div.cabecalho-direito input.campo {
+	width: 100%;
+	border: 1px solid #DBE1E6;
+}
+
+div.cabecalho-direito input.campo:hover {
+	border: 1px solid #333;
+}
+
+div.cabecalho-direito input.botao, div.conteudo div.menu-aux input.botao {
+	height: 22px;
+}
+
+div.conteudo {
+	width: 970px;
+	min-height: 1000px;
+	margin: 0 auto;
+	border-top: 5px solid #039;
+	border-right: 1px solid #DBE1E6;
+	border-bottom: 1px solid #DBE1E6;
+	border-left: 1px solid #DBE1E6;
+	background: #FFFFFF;
+}
+
+div.conteudo div.menu {
+	float: left;
+	width: 160px;
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+
+div.conteudo div.menu-aux {
+	float: right;
+	width: 160px;
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+
+div.conteudo div.menu-aux span.busca {
+	background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+	line-height: 22px;
+	color: #eee;
+	font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 0.9em;
+	display: block;
+	padding-left: 5px;	
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+div.conteudo div.menu ul.categorias {
 	list-style: none;
 	margin: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 10px;
-	font-size: 0.9em;
+	padding: 0;
 }
-div.amarrador div.menuEsquerdo ul.categorias li {
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 5px;
-	padding-left: 0;
+
+div.conteudo div.menu ul.categorias li {
+	display: block;
+	line-height: 22px;
 }
-div.amarrador div.menuEsquerdo ul.categorias a {
+
+div.conteudo div.menu ul.categorias li.cabecalho-menu {
+	background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+	border-top: none;
+	border-right: 1px solid #DBE1E6;
+	border-bottom: 1px solid #DBE1E6;
+	border-left: none;
+	text-align: center;
+	color: #eee;
+	font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+div.conteudo div.menu ul.categorias li.cabecalho-menu:hover {
+	background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+}
+
+div.conteudo div.menu ul.categorias li.item-menu {
+	background: url(imagens/menu-fundo.png) repeat-x;
+	border-top: none;
+	border-right: 1px solid #DBE1E6;
+	border-bottom: 1px solid #DBE1E6;
+	border-left: none;
+}
+
+div.conteudo div.menu ul.categorias li a {
+	padding-left: 8px;
 	color: #666;
 	text-decoration: none;
 	display: block;
 }
-div.amarrador div.menuEsquerdo ul.categorias a:hover {
-	color: #000;
+
+div.conteudo div.menu ul.categorias li a:hover {
+	color: #039;
 	text-decoration: underline;
 }
-div.amarrador div.menuDireito {
-	width: 160px;
-	float: right;
+
+div.conteudo div.centro {
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 640px;
 }
-div.amarrador div.conteudo {
-	margin: 0 auto;
-	width: 560px;
-	padding-top: 0;
-	padding-right: 10px;
-	padding-bottom: 0;
-	padding-left: 10px;
-	background: #fff;
-	min-height: 800px;
+
+div.conteudo div.centro div.pagina {
+	background: url(imagens/cabecalho-menu-fundo.png) repeat-x;
+	height: 22px;
+	line-height: 22px;
+	color: #eee;
+	font-family: "PuritanBold", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 0.9em;
+	padding-left: 5px;
+	margin-bottom: 10px;
 }
-span.textoDestaque {
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
-	padding: 0;
-	color: #333;
-	font-size: 1.6em;
-	border-bottom: 1px solid #333;
-	display: block;
-	font-family: "PuritanNormal";
-}
-span.textoMenu {
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 10px;
-	padding: 0;
-	color: #333;
-	font-size: 1.6em;
-	border-bottom: 1px solid #333;
-	display: block;
-	font-family: "PuritanNormal";
-}
-div.amarrador div.conteudo div.destaque {
-	margin-bottom: 20px;
-}
-div.amarrador div.conteudo div.lancamento {
-	margin-bottom: 20px;
-}
-div.amarrador div.conteudo div.destaque div.destaque-esquerda {
-	background: url(imagens/destaque.png) no-repeat;
-	float: left;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.amarrador div.conteudo div.destaque div.destaque-direita {
-	background: url(imagens/destaque.png) no-repeat;
-	float: right;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.amarrador div.conteudo div.destaque div.destaque-centro {
-	background: url(imagens/destaque.png) no-repeat;
-	margin: 0 auto;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.amarrador div.conteudo div.lancamento div.lancamento-esquerda {
-	background: url(imagens/lancamento.png) no-repeat;
-	float: left;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.amarrador div.conteudo div.lancamento div.lancamento-direita {
-	background: url(imagens/lancamento.png) no-repeat;
-	float: right;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.amarrador div.conteudo div.lancamento div.lancamento-centro {
-	background: url(imagens/lancamento.png) no-repeat;
-	margin: 0 auto;
-	width: 180px;
-	height: 280px;
-	overflow: hidden;
-}
-div.rodape {
-	min-height: 100px;
-}
+
 div.clearer {
 	clear: both;
 }
